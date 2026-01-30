@@ -19,5 +19,117 @@ body{
     background: pink;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 7px;
+    border-radius: 15px;
+    /* целая секция для наших коробочек */
+}
+
+.bg-section-title{
+    margin-bottom: 15px;
+    color: darkblue;
+    /* тест для заголовка */
+}
+
+.example-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* выстроили текст */
+}
+
+.example-box{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: beige;
+    border-radius: 15px;
+    /* выстроили квадратики */
+}
+
+.color{
+    background-color: darkcyan;
+}
+/* только цвет */
+
+.rgba{
+    background-color:rgba(115, 9, 9, 0.5); 
+    /* цвет + прозрачность */
+}
+
+.repeated{
+/* повторяющийся */
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: 50px 50px;
+    background-repeat: repeat;
+}
+.cover{
+    /* заполняет весь контейнер */
+    width: 200px;
+    height: 150px;
+    background-image: url( https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.contain{
+    /* вписывает целиком */
+    width: 200px;
+    height: 150px;
+    background-image: url( https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* через background-position управляет направлением картинки */
+.center{
+    width: 200px;
+    height: 150px;
+    background-image: url( https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    background-position: center;
+}
+.left{
+    width: 200px;
+    height: 150px;
+    background-image: url( https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    background-position: left top;
+}
+.right{
+    width: 200px;
+    height: 150px;
+    background-image: url( https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    background-position: right bottom;
+}
+
+.linear{
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(to bottom, #1024d4, red);
+
+}
+.radial{
+    width: 200px;
+    height: 150px;
+    background: radial-gradient(ellipse, #1024d4, red,white);
+
+}
+.conic{
+    width: 200px;
+    height: 150px;
+    background: conic-gradient(from 45deg,white, #1024d4, red);
+
 }
