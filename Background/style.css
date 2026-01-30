@@ -119,21 +119,23 @@ body{
     width: 200px;
     height: 150px;
     background: linear-gradient(to bottom, #1024d4, red);
-
+    /* линейный градиент, может идти с любой точки право,лево,верх,низ,любой угол и тд */
 }
 .radial{
     width: 200px;
     height: 150px;
     background: radial-gradient(ellipse, #1024d4, red,white);
-
+/* цвет расходится от центра */
 }
 .conic{
     width: 200px;
     height: 150px;
     background: conic-gradient(from 45deg,white, #1024d4, red);
+    /* цвет расходится по циферблату, так же можно задать угол */
 }
 
 .fixed{
+    /* фиксируем высоту и ширину, и картинка скролится по заданому блоку */
     width: 100%;
     height: 200px;
     background-image: url( https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg);
