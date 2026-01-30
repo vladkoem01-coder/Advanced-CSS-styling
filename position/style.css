@@ -1,0 +1,33 @@
+.static-positioning{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color: black;
+    position: static;
+    /* left: 20%; не работает в статик */
+    margin-bottom: 50px;
+}
+
+.relative-positioning{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color: black;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.absolute-positioning{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: black;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    margin-bottom: 50px;
+    z-index: 2;
+}

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bg-section{
+    background: pink;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
