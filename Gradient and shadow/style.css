@@ -81,7 +81,10 @@ body{
     border-image: linear-gradient(45deg, pink, lightblue) 1;
 }
 .outline-effect{
-    outline: 10px solid pink;
+    outline: 10px solid  pink;
     outline-offset: 5px;
     /* outline-offset - расстояние между коробкой и рамкой */
+}
+.blur-filter{
+    filter: blur(px)
 }
